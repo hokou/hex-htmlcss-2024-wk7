@@ -9,18 +9,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="all.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="castoro-regular">
   <header class="container">
-    <h1 class="title mt-40">VITO</h1>
-    <div class="text-c">
+    <h1 class="title mt-40" data-aos="fade-down">VITO</h1>
+    <div class="text-c" data-aos="flip-left">
       <img src="image/resume.jpg" alt="" />
     </div>
-    <h2 class="title w-50 ml-auto">RESUME</h2>
+    <h2 class="title w-50 ml-auto" data-aos="fade-down">RESUME</h2>
   </header>
   <div class="bg-gray mb-20">
     <div class="container">
-      <p class="w-50 ml-auto">
+      <p class="w-50 ml-auto" data-aos="fade-left">
         I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. 
         Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. 
         I enjoy collaborating with others to create high-quality products.
@@ -29,7 +30,7 @@
   </div>
   <section class="container">
     <ul class="w-50">
-      <li>
+      <li data-aos="fade-right">
         <h3 class="about-title">Vito Evans</h3>
         <ul>
           <li class="mb-2">
@@ -46,7 +47,7 @@
           </li>
         </ul>
       </li>
-      <li>
+      <li data-aos="fade-right">
         <h3 class="about-title">Education</h3>
         <ul>
           <li class="mb-4">
@@ -63,7 +64,7 @@
           </li>
         </ul>
       </li>
-      <li>
+      <li data-aos="fade-right">
         <h3 class="about-title">Work</h3>
         <ul>
           <li class="mb-4">
@@ -80,7 +81,7 @@
           </li>
         </ul>
       </li>
-      <li>
+      <li data-aos="fade-right">
         <h3 class="about-title">Awards</h3>
         <ul>
           <li class="mb-4">
@@ -97,7 +98,7 @@
     </ul>
   </section>
   <footer class="footer mt-40">
-    <ul class="link-list">
+    <ul class="link-list" data-aos="zoom-in">
       <li class="d-inline-block mx-5">
         <a href="#"><img class="radius" src="image/facebook.jpg" alt=""></a>
       </li>
@@ -109,5 +110,9 @@
       </li>
     </ul>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
